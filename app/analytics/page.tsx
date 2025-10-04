@@ -215,7 +215,6 @@ export default function AnalyticsPage() {
                   cx="50%"
                   cy="50%"
                   labelLine={false}
-                  label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
                   outerRadius={80}
                   fill="#8884d8"
                   dataKey="value"
@@ -273,7 +272,7 @@ export default function AnalyticsPage() {
                 <div>
                   <p className="font-semibold text-gray-900 mb-1">Progression Velocity</p>
                   <p className="text-sm text-gray-600">
-                    Athletes in the "Strength Fundamentals" program are progressing 15% faster than average. Consider applying similar principles to other programs.
+                    Athletes in the &ldquo;Strength Fundamentals&rdquo; program are progressing 15% faster than average. Consider applying similar principles to other programs.
                   </p>
                 </div>
               </div>
